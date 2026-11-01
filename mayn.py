@@ -88,4 +88,14 @@ print("ასაკი > 18 and სტუდენტია:", age > 18 and is_s
 print("სიმაღლე > 1.80 or სტუდენტია:", height > 1.80 or is_student)
 print("not სტუდენტი:", not is_student)
 print("სიმაღლე > 1.70 and სტუდენტია:", height > 1.70 and is_student)
+
+
+     # ამოცანა 6
+# input() და ტიპის სწორად გარდაქმნა
+user_name = input("შეიყვანეთ სახელი: ")
+user_age = int(input("შეიყვანეთ ასაკი: "))
+user_height = float(input("შეიყვანეთ სიმაღლე (მეტრებში): "))
+ 
+print("გამარჯობა,", user_name + "!")
+print("შენი ასაკია", user_age, "წელი და სიმაღლე", user_height, "მ.")
  
